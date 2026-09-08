@@ -60,7 +60,7 @@ void sortroll(SLL **head)
         for(p=*head;p;p=p->next)
         {
                 for(q=p->next;q;q=q->next)
-                        if(p->name>q->name)
+                        if(p->rollno>q->rollni)
                         {
                                 strcpy(t.name,p->name);
                                 t.rollno=p->rollno;
